@@ -1,0 +1,186 @@
+/**index.html - Não alterar por enquanto**/
+body {
+    background-color: #f4f1e3;
+    font-family: 'Times New Roman', Times, serif;
+}
+/**Footer - Não alterar por enquanto**/
+.github {
+    width: 85px;
+    margin-right: 15px;
+}
+.github img {
+    width: 70px;
+}
+.instagram {
+    width: 85px;
+}
+.instagram img {
+    width: 70px;
+}
+.links ul {
+    line-height: 40px;
+}
+
+
+/**Search-box**/
+.text p {
+    font-size: 30px;
+    margin-top: 50px;
+    color: #757575;
+}
+/**Cards**/
+.cel1 {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.cel1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.cel1-img {
+    width: 100%;
+    overflow: hidden;
+}
+.cel1-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.cel1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .cel1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.cel2 {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.cel2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.cel2-img {
+    width: 100%;
+    overflow: hidden;
+}
+.cel2-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.cel2-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .cel2-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.games1 {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.games1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.games1-img {
+    width: 100%;
+    overflow: hidden;
+}
+.games1-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.games1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .games1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.games2 {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.games2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.games2-img {
+    width: 100%;
+    overflow: hidden;
+}
+.games2-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+
+}
+.games2-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .games2-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.notebook1 {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.notebook1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.notebook1-img {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.notebook1-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.notebook1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .notebook1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+
+
+/**celularinov.html**/
+/**celular.html**/
+.card-1 {
+    border-radius: 15px;
+    width: 65%;
+}
+.main-topics h3 {
+    font-size: 40px;
+}
+.main-topics p {
+    font-size: 25px;
+}
+.card-content a {
+    text-decoration: none;
+    color: #616161;
+}
+.card-content h4 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.card-content p {
+    font-size: 20px;
+}
+
