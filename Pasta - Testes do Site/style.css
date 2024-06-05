@@ -1,0 +1,494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: #f4f1e3;
+}
+
+/**index.html**/
+.nav-one {
+    font-style: italic;
+}
+button#back-to-top {
+    border-radius: 20px;
+    margin-top: 83px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+button#back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+#back-to-top i {
+    font-size: 30px;
+    margin-right: 25px;
+    padding-left: 25px;
+}
+.conteudo .introducao {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 500;
+    color: #b8ab8a;
+}
+
+/**Cards**/
+.cel1-content, .cel2-content, .games1-content, .games2-content, .notebook1-content {
+    margin-bottom: -10px;
+}
+.computador1 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.computador1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.computador1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.computador1-img {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.computador1-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.computador1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .computador1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.cel1 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.cel1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.cel1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.cel1-img {
+    width: 100%;
+    overflow: hidden;
+}
+.cel1-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.cel1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .cel1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.cel2 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.cel2.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.cel2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.cel2-img {
+    width: 100%;
+    overflow: hidden;
+}
+.cel2-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.cel2-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .cel2-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.games1 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.games1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.games1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.games1-img {
+    width: 100%;
+    overflow: hidden;
+}
+.games1-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.games1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .games1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.games2 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.games2.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.games2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.games2-img {
+    width: 100%;
+    overflow: hidden;
+}
+.games2-img img {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.games2-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .games2-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+.notebook1 {
+    overflow: hidden;
+    transition: opacity 0.9s ease-out, transform 0.3s ease;
+    border-radius: 30px;
+    opacity: 0;
+    transform: translateY(50px);
+}
+.notebook1.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.notebook1 a {
+    text-decoration: none;
+    color: inherit;
+}
+.notebook1-img {
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.notebook1-img img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.notebook1-content {
+    transition: background-color 0.3s ease;
+}
+.card:hover .notebook1-img img {
+    transform:scale(1.5);
+}
+.card:hover a {
+    text-decoration: underline;
+}
+
+/**Footer**/
+.footer-one {
+    align-items: end;
+    justify-content: end;
+    padding-top: 85px;
+}
+.github {
+    width: 80px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.github img {
+    width: 70px;
+}
+.instagram {
+    width: 85px;
+    border-radius: 50%;
+}
+.instagram img {
+    width: 70px;
+}
+
+/**celularinov.html**/
+.cel-1 {
+    background-color: white;
+}
+.container .redirecionar {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.container .redirecionar a {
+    color: black;
+    transition: 0.3s;
+}
+.container .redirecionar a:hover {
+    color: #5be022;
+}
+/*Se precisar, alterar depois o h3*/
+.cel-1 h3, .cel-1 h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.cel-1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px ;
+    font-size: 20px;
+}
+.cel-1 p:last-child {
+    padding-bottom: 20px;
+}
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.imagens img {
+    max-width: 500px;
+    max-height: 330px;
+}
+.Iphone {
+    height: 300px;
+    width: 500px;
+}
+
+/**celular.html**/
+.card-1, .card-2 {
+    border-radius: 15px;
+    width: 100%;
+    
+}
+.card-1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.card-2 {
+    margin-bottom: 50px;
+}
+.main-topics .header {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+}
+.main-topics .introducao {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 300;
+    color: #b8ab8a;
+}
+.card-content a {
+    text-decoration: none;
+    color: #616161;
+}
+.card-content h4 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.card-content p {
+    font-size: 20px;
+}
+
+/*pcmontagem.html*/
+.pc {
+    background-color: white;
+}
+.pc h3, .pc h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.pc h3 {
+    padding-top: 30px;
+}
+.pc p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.pc p:last-child {
+    padding-bottom: 20px;
+}
+
+/*exclusgames.html*/
+.games-1 {
+    background-color: white;
+}
+.games-1 h3, .games-1 h4, .games-1 h5 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.games-1 h4 {
+    font-size: 40px;
+}
+.games-1 h5 {
+    font-size: 30px;
+}
+.games-1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.games-1 p:last-child {
+    padding-bottom: 20px;
+}
+
+/*topnotes.html*/
+.note-1 {
+    background-color: white;
+}
+.note-1 h3, .note-1 h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.note-1 h4 {
+    font-size: 40px;
+}
+.note-1 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.note-1 p:last-child {
+    padding-bottom: 20px;
+}
+.note-1 a {
+    color: orange;
+}
+
+/*rankjogos.html*/
+.games-2 {
+    background-color: white;
+}
+.games-2 h3, .games-2 h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.games-2 h4 {
+    font-size: 40px;
+}
+.games-2 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.games-2 p:last-child {
+    padding-bottom: 20px;
+}
+
+/*topmarcas.html*/
+.note-2 {
+    background-color: white;
+}
+.note-2 h3, .note-2 h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.note-2 h4 {
+    font-size: 40px;
+}
+.note-2 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.note-2 p:last-child {
+    padding-bottom: 20px;
+}
+
+/*historiacel.html*/
+.cel-2 {
+    background-color: white;
+}
+.cel-2 h3, .cel-2 h4 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.cel-2 h4 {
+    font-size: 40px;
+}
+.cel-2 p {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding: 7px;
+    font-size: 20px;
+}
+.cel-2 p:last-child {
+    padding-bottom: 20px;
+}
